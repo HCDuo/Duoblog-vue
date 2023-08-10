@@ -101,10 +101,10 @@ export default {
       artCommentList: "", //最新评论
       catchMeObj: {
         //个人信息
-        git: "https://gitee.com",
+        git: "https://github.com/HCDuo",
         qq: "/static/img/qq.png",
         sina: "https://weibo.com",
-        wechat: "/static/img/qq.jpg",
+        wechat: "/static/img/wechat.png",
         csdn: "http://www.csdn.cn",
         job: "https://www.baidu.com",
       },
