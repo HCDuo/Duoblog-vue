@@ -5,7 +5,7 @@ function resolve(dir) {
     return path.join(__dirname, dir)
 }
 
-const name = process.env.VUE_APP_TITLE || '三更博客' // 网页标题
+const name = process.env.VUE_APP_TITLE || '博客' // 网页标题
 
 const port = process.env.port || process.env.npm_config_port || 85 // 端口
 
@@ -30,7 +30,7 @@ module.exports = {
         proxy: {
             // detail: https://cli.vuejs.org/config/#devserver-proxy
             [process.env.VUE_APP_BASE_API]: {
-                target: `http://47.113.148.155:7777`,
+                target: `http://47.106.228.216:7777`,
                 changeOrigin: true,
                 pathRewrite: {
                     ['^' + process.env.VUE_APP_BASE_API]: ''
